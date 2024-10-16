@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.one {
+    position: relative;
+    min-width: auto;
+    padding: 1%;
+    background-color: rgb(166, 164, 143);
+}
+
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.five {
+    margin-top: auto;
+    position: relative;
+    width: 15vw;
+    height: 445px;
+    background-color: rgb(186, 164, 134);
+    margin-left: auto;
+}
+
+.two {
+    position: relative;
+    width: 15vw;
+    height: 500px;
+    background-color: rgb(186, 164, 134);
+    margin-right: 70%;
+    margin-top: auto;
+}
+
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.three {
+    position: relative;
+    width: auto;
+    background-color: rgb(125, 109, 88);
+    margin-left: 15vw;
+    padding: 2px;
+    margin-top: -500px;
+}
+
+.six {
+    position: relative;
+    margin-top: 10vh;
+    width: auto;
+    height: auto;
+    background-color: rgb(166, 164, 143);
+    text-align: center;
+    /* Вирівнює вміст по горизонталі */
+}
+
+
+.four {
+
+    position: relative;
+    margin-top: -29rem;
+    color: black;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
+}
+
+img {
+    height: 40%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.imgg {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    display: block;
+    margin: 0 auto;
+    /* Автоматичне вирівнювання по горизонталі */
+    width: 70%;
+    /* Ширина картинки */
+    height: auto;
+    /* Зберігає пропорції картинки */
+
+}
+
+ul {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+
+
+}
+
+a {
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+
+
+}
+
+a:hover {
+    background-color: rgb(210, 185, 154);
+    /* Колір при наведенні */
+
+}
+
+.map {
+    width: 50%;
+    /* Задає ширину картинки */
+    height: auto;
+    /* Зберігає пропорції картинки */
+    margin: 0 auto;
+    /* Вирівнює картинку по центру горизонтально */
+}

@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.conteiner {
+    display: grid;
+    grid-template-areas:
+        "a a a a"
+        "b c c c"
+        "b f f i"
+        "b f f i"
+        "y y y y";
+}
+
+.one {
+    display: grid;
+    grid-area: a;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(166, 164, 143);
+    grid-column: 1/6;
+}
+
+ul {
+    margin-top: 2vw;
+    right: 20vw;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.two {
+    display: grid;
+    grid-area: b;
+
+    background-color: rgb(186, 164, 134);
+    height: 500px;
+    width: 13vw;
+}
+
+h3 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.three {
+    display: grid;
+    grid-area: c;
+    grid-column: 2/6;
+    height: 60px;
+    background-color: rgb(125, 109, 88);
+    grid-column: 2/6;
+}
+
+.five {
+    display: grid;
+    grid-area: i;
+    background-color: rgb(186, 164, 134);
+    height: 450px;
+    width: 10vw;
+}
+
+.six {
+    display: grid;
+    grid-column: y;
+    background-color: rgb(166, 164, 143);
+    text-align: center;
+    margin-top: -10%;
+    height: auto;
+    grid-column: 1/6;
+}
+
+.four {
+    display: grid;
+    color: black;
+    grid-area: f;
+    padding: 20px;
+    grid-column: 70vw;
+    text-align: justify;
+}
+
+.imgg {
+    margin-top: 50%;
+    height: 40%;
+    width: 90%;
+}
+
+img {
+    height: 40%;
+    width: 20%;
+    margin: 0 auto;
+
+}
+
+p {
+    text-align: justify
+}
+
+a {
+    background-color: bisque;
+    border-radius: 8px;
+    padding: 10px 15px;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+
+
+}
+
+a:hover {
+    background-color: rgb(210, 185, 154);
+    /* Колір при наведенні */
+
+}
+
+.map {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: auto;
+}
